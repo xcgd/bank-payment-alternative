@@ -13,7 +13,6 @@
     "website": "https://github.com/OCA/bank-payment-alternative",
     "category": "Banking addons",
     "depends": ["account_payment_sepa_base", "account_payment_mandate"],
-    "excludes": ["account_banking_sepa_direct_debit"],
     "assets": {
         "web.report_assets_common": [
             "/account_payment_sepa_direct_debit/static/src/css/report.css"

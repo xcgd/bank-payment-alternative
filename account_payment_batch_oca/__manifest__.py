@@ -25,7 +25,6 @@
         "account_payment_base_oca",
         "base_iban",
     ],
-    "excludes": ["account_payment_order"],
     "data": [
         "views/account_payment_method.xml",
         "security/payment_security.xml",

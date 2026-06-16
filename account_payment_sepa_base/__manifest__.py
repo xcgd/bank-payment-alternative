@@ -14,7 +14,6 @@
     "website": "https://github.com/OCA/bank-payment-alternative",
     "category": "Hidden",
     "depends": ["account_payment_batch_oca"],
-    "excludes": ["account_banking_pain_base"],
     "external_dependencies": {"python": ["unidecode", "lxml"]},
     "data": [
         "security/res_groups.xml",
