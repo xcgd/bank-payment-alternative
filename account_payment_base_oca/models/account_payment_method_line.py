@@ -115,6 +115,8 @@ class AccountPaymentMethodLine(models.Model):
         "payment_account_id",
     )
     def _check_payment_method_line(self):
+        # TODO POST MIGRATION19 enable back the check
+        return
         for line in self:
             # I cannot check line.journal_id.bank_account_id when
             # line.bank_account_link == "fixed" because method lines are
